@@ -121,7 +121,7 @@ class TilePrediction(object):
         :param filename:
         :return:
         """
-        mpp2mag = {.25: 40, .5: 20, 1: 10}
+        mpp2mag = {.25: 40, .5: 20, 1: 10, 2:32} #use 2 for mrxs files
         reader = get_reader_impl(filename)
         slide = reader(filename)
         if args.mpp_level_0:
