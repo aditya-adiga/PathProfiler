@@ -1,6 +1,6 @@
 import sys
 sys.path.extend(["../.", "."])
-from common.wsi_reader import get_reader_impl
+from PathProfiler.common.wsi_reader import get_reader_impl
 import os
 import gc
 import cv2
